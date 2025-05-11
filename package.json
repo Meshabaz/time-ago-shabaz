@@ -1,0 +1,13 @@
+{
+  "name": "@shabaz/time-ago",
+  "version": "1.0.0",
+  "description": "Lightweight time-ago formatter for dates and timestamps",
+  "main": "src/index.js",
+  "keywords": ["timeago", "formatter", "date", "relative", "npm", "shabaz"],
+  "author": "Md Shabaz Ansari",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Meshabaz/time-ago-shabaz.git"
+  }
+}
