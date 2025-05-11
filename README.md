@@ -98,7 +98,7 @@ Internally uses `Intl.RelativeTimeFormat`, supported in all modern environments.
 
 **Md Shabaz Ansari**
 
-🔗 [Portfolio](https://meshabaz.github.io/shabaz/)  
+🔗 [Portfolio](https://shabaz.vercel.app/)  
 🔗 [LinkedIn](https://www.linkedin.com/in/md-shabaz-ansari-0399341bb/)
 
 ---
