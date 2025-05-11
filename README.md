@@ -2,9 +2,9 @@
 
 A lightweight, zero-dependency JavaScript utility that converts timestamps into human-readable relative time — like `5 minutes ago`, `yesterday`, or `2 months ago`.
 
-![npm](https://img.shields.io/npm/v/@shabaz/time-ago?color=blue)
-![license](https://img.shields.io/npm/l/@shabaz/time-ago)
-![bundle size](https://img.shields.io/bundlephobia/min/@shabaz/time-ago)
+![npm](https://img.shields.io/npm/v/time-ago-shabaz?color=blue)
+![license](https://img.shields.io/npm/l/time-ago-shabaz)
+![bundle size](https://img.shields.io/bundlephobia/min/time-ago-shabaz)
 ![GitHub stars](https://img.shields.io/github/stars/meshabaz/time-ago-shabaz?style=social)
 
 ---
@@ -30,7 +30,7 @@ A lightweight, zero-dependency JavaScript utility that converts timestamps into 
 ## 📦 Installation
 
 ```bash
-npm install @shabaz/time-ago
+npm install time-ago-shabaz
 ```
 
 ---
@@ -40,7 +40,7 @@ npm install @shabaz/time-ago
 ### Basic Example
 
 ```js
-import timeAgo from "@shabaz/time-ago";
+import timeAgo from "time-ago-shabaz";
 
 console.log(timeAgo("2023-12-01T10:00:00"));
 // Output: "5 months ago"
