@@ -1,4 +1,4 @@
-# ⏱️ @shabaz/time-ago
+# ⏱️ time-ago-shabaz
 
 A lightweight, zero-dependency JavaScript utility that converts timestamps into human-readable relative time — like `5 minutes ago`, `yesterday`, or `2 months ago`.
 
