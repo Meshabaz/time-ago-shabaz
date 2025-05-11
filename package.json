@@ -1,6 +1,6 @@
 {
   "name": "time-ago-shabaz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight time-ago formatter for dates and timestamps",
   "main": "src/index.js",
   "keywords": [
