@@ -19,6 +19,14 @@ A lightweight, zero-dependency JavaScript utility that converts timestamps into 
 
 ---
 
+## 📦 Coming Soon
+
+- ✅ Browser/UMD build support (`dist/time-ago.min.js`)
+- ✅ TypeScript types
+- ✅ Locale language switching (e.g. Hindi, French, Bengali)
+
+---
+
 ## 📦 Installation
 
 ```bash
