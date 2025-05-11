@@ -23,3 +23,85 @@ A lightweight, zero-dependency JavaScript utility that converts timestamps into 
 
 ```bash
 npm install @shabaz/time-ago
+```
+
+---
+
+## 🚀 Usage
+
+### Basic Example
+
+```js
+import timeAgo from "@shabaz/time-ago";
+
+console.log(timeAgo("2023-12-01T10:00:00"));
+// Output: "5 months ago"
+```
+
+### With Date Object
+
+```js
+const date = new Date(Date.now() - 3600 * 1000); // 1 hour ago
+console.log(timeAgo(date));
+// Output: "an hour ago"
+```
+
+---
+
+## 🌍 Locale Support
+
+By default, this uses English. You can customize it using `Intl.RelativeTimeFormat`:
+
+```js
+const rtf = new Intl.RelativeTimeFormat("fr");
+```
+
+*(Localization enhancement support planned in v2.0 🚧)*
+
+---
+
+## 📁 Project Structure
+
+```scss
+.
+├── src
+│   └── index.js      # timeAgo() source code
+├── package.json
+└── README.md
+```
+
+---
+
+## 🔧 How It Works
+
+Internally uses `Intl.RelativeTimeFormat`, supported in all modern environments.
+
+---
+
+## 🙋 Why Use This?
+
+- You’re building a blog, chat, feed, or activity log.
+- You want a simple formatter without adding heavy libraries like `moment.js`.
+- You love clean code.
+
+---
+
+## 🧠 Author
+
+**Md Shabaz Ansari**
+
+🔗 [Portfolio](https://meshabaz.github.io/shabaz/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/md-shabaz-ansari-0399341bb/)
+
+---
+
+## 📄 License
+
+MIT – use it freely in open or commercial projects.
+
+---
+
+## ⭐ Star This Project
+
+If you find it helpful, give it a ⭐ on GitHub to support the project and spread the word!
+
